@@ -51,6 +51,7 @@ def model_view(
                     - 'return' : Returns an HTML object containing the generated view for further processing or custom visualization
     """
 
+
     attn_data = []
     if attention is not None:
         if tokens is None:
